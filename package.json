@@ -2,12 +2,15 @@
   "name": "@wasc/wildduck-sdk",
   "version": "0.1.0",
   "main": "buid/index.js",
+  "typings": "build/index.d.ts",
   "license": "Apache-2.0",
   "scripts": {
-    "generate": "openapi -i openapi.yml --output ./generated --client node"
+    "generate": "openapi -i openapi.yml --output ./generated --client node",
+    "build": "tsc"
   },
   "devDependencies": {
-    "openapi-typescript-codegen": "^0.18.2"
+    "openapi-typescript-codegen": "^0.18.2",
+    "typescript": "^4.5.5"
   },
   "dependencies": {
     "@types/node-fetch": "^2.0.0",
