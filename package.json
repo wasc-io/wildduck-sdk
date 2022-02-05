@@ -1,7 +1,7 @@
 {
   "name": "@wasc/wildduck-sdk",
   "version": "0.1.0",
-  "main": "buid/index.js",
+  "main": "build/index.js",
   "types": "build/index.d.ts",
   "license": "Apache-2.0",
   "release": {
