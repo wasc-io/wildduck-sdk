@@ -9,6 +9,9 @@
       "main"
     ]
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "generate": "openapi -i openapi.yml --output ./generated --client node",
     "build": "tsc"
