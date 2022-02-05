@@ -1,0 +1,18 @@
+{
+  "name": "@wasc/wildduck-sdk",
+  "version": "0.1.0",
+  "main": "buid/index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "generate": "openapi -i openapi.yml --output ./generated --client node"
+  },
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.18.2"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.0.0",
+    "abort-controller": "^3.0.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.0.0"
+  }
+}
