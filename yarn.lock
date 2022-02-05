@@ -157,7 +157,7 @@ node-fetch@^2.0.0:
   dependencies:
     whatwg-url "^5.0.0"
 
-openapi-typescript-codegen@^0.18.2:
+openapi-typescript-codegen@0.18.2:
   version "0.18.2"
   resolved "https://registry.yarnpkg.com/openapi-typescript-codegen/-/openapi-typescript-codegen-0.18.2.tgz#c46cbed8c2ce654ae0c170628e98028c5a20e38f"
   integrity sha512-VjgChQxvicj1zjDWvqJivqKEPT7apRFTfLWrgAsHlzMLTGWzIxOONSUxZ0dGLbxTlMIQiFEVlR8X76Qrbkr3fw==
@@ -177,7 +177,7 @@ tr46@~0.0.3:
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
-typescript@^4.5.5:
+typescript@4.5.5:
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
   integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
